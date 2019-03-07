@@ -6,19 +6,22 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <NavLink class="navbar-brand" to="/">Weather</NavLink>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+          <NavLink className="navbar-brand" to="/">Weather</NavLink>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <NavLink class="navbar-brand" to="/">Weather</NavLink>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav mr-auto">
+              <li className="nav-item active">
+                <NavLink className="navbar-brand" to="/">Weather</NavLink>
               </li>
-              <li class="nav-item">
-                <NavLink class="navbar-brand" to="/sample">Sample</NavLink>
+              <li className="nav-item">
+                <NavLink className="navbar-brand" to="/sample">Sample</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="navbar-brand" to="/racer">Racer Info</NavLink>
               </li>
             </ul>
           </div>
